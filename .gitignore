@@ -39,7 +39,6 @@ local.properties
 *.s#*
 *.b#*
  
- 
 # OS-specific ignore patterns
  
 #Linux
