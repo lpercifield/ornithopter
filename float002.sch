@@ -6315,7 +6315,7 @@ CAP-08604- 25V 5% (0603)&lt;br&gt;</description>
 <text x="10.16" y="41.91" size="1.778" layer="94">ATMEGA 32U4 CIRCUIT</text>
 <text x="147.32" y="55.88" size="1.778" layer="94">BREAKOUT HEADER</text>
 <text x="161.29" y="120.65" size="1.778" layer="94">Bee socket</text>
-<text x="320.294" y="116.078" size="1.778" layer="94">LiPo CHARGER</text>
+<text x="320.294" y="113.538" size="1.778" layer="94">LiPo CHARGER</text>
 <text x="207.01" y="165.1" size="2.54" layer="94">POWER MANAGEMENT</text>
 <wire x1="200.66" y1="175.26" x2="200.66" y2="58.42" width="0.6096" layer="94"/>
 <wire x1="200.66" y1="58.42" x2="381" y2="58.42" width="0.6096" layer="94"/>
@@ -6340,6 +6340,7 @@ CAP-08604- 25V 5% (0603)&lt;br&gt;</description>
 <text x="266.7" y="40.64" size="1.778" layer="91">- VIN selector chooses who goes to Fuse then VREG (didn't want to connect UVCC and VBATT directly... better solution?</text>
 <text x="266.7" y="35.56" size="1.778" layer="91">- need to check Fuse / decoupling capacitor placement </text>
 <text x="83.82" y="45.72" size="1.778" layer="91">- what about LED for RX; or WIFIDIN/DOUT?</text>
+<text x="320.294" y="108.458" size="1.778" layer="94">MCP73831 with status LED</text>
 </plain>
 <instances>
 <instance part="C10" gate="G$1" x="252.73" y="78.74"/>

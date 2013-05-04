@@ -1,0 +1,46 @@
+Partlist
+
+Exported from float002.brd at 5/4/13 3:20 AM
+
+EAGLE Version 6.4.0 Copyright (c) 1988-2013 CadSoft
+
+Assembly variant: 
+
+Part       Value          Package                   Library             Position (mil)        Orientation
+
+3.3VREG    MIC5219 3.3V   SOT23-5                   SparkFun-PowerIC    (2140 2470)           R90
+ATMEGA32U4 ATMEGA32U4     SPARKFUN-DIGITALIC_TQFP44 SparkFun-DigitalIC  (2220 1860)           R315.1
+C1         0.1uF          0402-CAP                  SparkFun            (2380 2230)           R270
+C2         22pF           0402-CAP                  SparkFun            (2470 1470)           R270
+C3         4.7uF          0402-CAP                  SparkFun-Capacitors (1660 740)            R0
+C4         22pF           0402-CAP                  SparkFun            (2150 1420)           R270
+C5         1uF            0402-CAP                  SparkFun            (1960 2280)           R270
+C6         1uF            0402-CAP                  SparkFun            (2280 2230)           R180
+C7         4.7uF          0402-CAP                  SparkFun-Capacitors (1920 760)            R0
+C8         10uF           EIA3216                   SparkFun            (1940 2430)           R0
+C9         0.1uF          0402-CAP                  SparkFun            (2000 2350)           R180
+C10        1uF            0402-CAP                  SparkFun            (2310 2430)           R180
+C13        10uF           EIA3216                   SparkFun            (2340 2340)           R0
+CHG        blue led       CHIP-LED0805              adafruit            (1710 960)            R0
+F1         500mA          PTC-1206                  SparkFun            (2170 2280)           R90
+ISP1       AVRISP-6       AVRISP                    adafruit            (1870 1420)           MR90
+JP1                       1X02                      pinhead             (1720 380)            R0
+JP4        M12PTH         1X12                      SparkFun-Connectors (2810 1350)           R90
+MCP        MCP73831       SOT23-5                   ze_ic               (1970 950)            R0
+POWER      Red            LED-0603                  SparkFun            (1930 2520)           R90
+R1         2.2K           0402-RES                  SparkFun            (1710 1610)           R180
+R2         10K            0402-RES                  SparkFun            (1910 1700)           R0
+R3         3.3K           0402-RES                  SparkFun            (1690 1530)           R90
+R4         2.2K           0402-RES                  SparkFun            (1900 2140)           R180
+R5         22             0402-RES                  SparkFun            (2500 2380)           R0
+R6         330            0402-RES                  SparkFun            (2070 1540)           R180
+R7         22             0402-RES                  SparkFun            (2080 2150)           R90
+R8         3.3K           0402-RES                  SparkFun            (1900 2190)           R180
+R9         2k             0402-RES                  SparkFun-Resistors  (1660 590)            R0
+R10        470            0402-RES                  SparkFun-Resistors  (1780 590)            R0
+R11        1K             0402-RES                  SparkFun            (2340 2520)           R270
+SJ1                       SJ_3_PASTE1&2             SparkFun-Passives   (1400 400)            R0
+TX         Green          LED-0603                  SparkFun            (2080 1390)           R0
+WIFI       XBEE-1B3       XBEE-SMD                  SparkFun-RF         (2210 1530)           R0
+X2         USB-MICROB     USB-MICROB                SparkFun-Connectors (2580 2560)           R180
+Y1         16MHz          CRYSTAL-SMD-5X3           SparkFun            (2310 1440)           R0
