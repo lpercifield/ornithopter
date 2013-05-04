@@ -1,0 +1,31 @@
+Partlist exported from /Users/jmsaavedra/Documents/eagle/ornithopter/ornithopter002.sch at 5/4/13 12:31 AM
+
+Part       Value        Device            Package                   Description                                                                      PROD_ID    VALUE       
+3.3VREG    MIC5219 3.3V V_REG_MIC52193.3V SOT23-5                   V_REG MIC5219                                                                    VREG-09872 MIC5219 3.3V
+ATMEGA32U4 ATMEGA32U4   ATMEGA32U4TQFP    SPARKFUN-DIGITALIC_TQFP44 Atmel 44-pin 8-bit Microcontroller with 32KBytes of ISP Flash and USB Controller                        
+C1         0.1uF        CAP0402-CAP       0402-CAP                  Capacitor                                                                                               
+C2         22pF         CAP0402-CAP       0402-CAP                  Capacitor                                                                                               
+C4         22pF         CAP0402-CAP       0402-CAP                  Capacitor                                                                                               
+C5         1uF          CAP0402-CAP       0402-CAP                  Capacitor                                                                                               
+C6         1uF          CAP0402-CAP       0402-CAP                  Capacitor                                                                                               
+C8         10uF         CAP_POL1206       EIA3216                   Capacitor Polarized                                                                                     
+C9         0.1uF        CAP0402-CAP       0402-CAP                  Capacitor                                                                                               
+C10        1uF          CAP0402-CAP       0402-CAP                  Capacitor                                                                                               
+C13        10uF         CAP_POL1206       EIA3216                   Capacitor Polarized                                                                                     
+F1         500mA        PTCSMD            PTC-1206                  Resettable Fuse PTC                                                                                     
+ISP1       AVRISP-6     AVRISP-6          AVRISP                    AVR ISP HEADER                                                                                          
+JP4        M12PTH       M12PTH            1X12                      Header 12                                                                                               
+POWER      Red          LED0603           LED-0603                  LEDs                                                                                                    
+R1         2.2K         RESISTOR0402-RES  0402-RES                  Resistor                                                                                                
+R2         10K          RESISTOR0402-RES  0402-RES                  Resistor                                                                                                
+R3         3.3K         RESISTOR0402-RES  0402-RES                  Resistor                                                                                                
+R4         2.2K         RESISTOR0402-RES  0402-RES                  Resistor                                                                                                
+R5         22           RESISTOR0402-RES  0402-RES                  Resistor                                                                                                
+R6         330          RESISTOR0402-RES  0402-RES                  Resistor                                                                                                
+R7         22           RESISTOR0402-RES  0402-RES                  Resistor                                                                                                
+R8         3.3K         RESISTOR0402-RES  0402-RES                  Resistor                                                                                                
+R11        1K           RESISTOR0402-RES  0402-RES                  Resistor                                                                                                
+TX         Green        LED0603           LED-0603                  LEDs                                                                                                    
+U$1        XBEE-1B3     XBEE-1B3          XBEE-SMD                  Xbee module footprints                                                           CONN-09042             
+X2         USB-MICROB   USB-MICROB        USB-MICROB                USB Connectors                                                                   CONN-09505             
+Y1         16MHz        CRYSTAL5X3        CRYSTAL-SMD-5X3           Crystals                                                                                                
