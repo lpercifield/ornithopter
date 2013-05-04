@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -6336,7 +6336,7 @@ CAP-08604- 25V 5% (0603)&lt;br&gt;</description>
 <text x="269.24" y="66.04" size="1.6764" layer="94">default connection:</text>
 <text x="289.56" y="81.28" size="1.778" layer="94">VIN SELECTOR</text>
 <text x="298.45" y="66.04" size="1.6764" layer="94">UVCC-VIN</text>
-<text x="266.7" y="38.1" size="1.778" layer="91">- UVCC always charges battery</text>
+<text x="266.7" y="38.1" size="1.778" layer="91">- UVCC always charges battery, powers 32u4</text>
 <text x="266.7" y="40.64" size="1.778" layer="91">- VIN selector chooses who goes to Fuse then VREG (didn't want to connect UVCC and VBATT directly... better solution?</text>
 <text x="266.7" y="35.56" size="1.778" layer="91">- need to check Fuse / decoupling capacitor placement </text>
 <text x="83.82" y="45.72" size="1.778" layer="91">- what about LED for RX; or WIFIDIN/DOUT?</text>
