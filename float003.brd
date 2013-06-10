@@ -127,7 +127,8 @@
 <wire x1="39.573384375" y1="66.792" x2="38.862" y2="66.080615625" width="0.2032" layer="20" curve="90"/>
 <wire x1="38.862" y1="66.080615625" x2="38.862" y2="33.48441875" width="0.2032" layer="20"/>
 <text x="70.104" y="63.754" size="0.4064" layer="21" rot="SR90">GND</text>
-<text x="53.34" y="33.528" size="0.4064" layer="21">Leif Percifield</text>
+<text x="59.182" y="34.544" size="1.016" layer="21" font="vector">Float v01</text>
+<text x="52.578" y="33.274" size="0.4572" layer="21" font="vector">Joel Murphy, Leif Percifield, Joseph Saavedra</text>
 </plain>
 <libraries>
 <library name="SparkFun">
@@ -1280,9 +1281,6 @@ design rules under a new name.</description>
 <contactref element="R10" pad="1"/>
 <contactref element="MCP" pad="1"/>
 <wire x1="61.534" y1="55.844" x2="61.468" y2="55.778" width="0.2032" layer="1"/>
-<wire x1="61.468" y1="55.778" x2="61.468" y2="55.118" width="0.2032" layer="1"/>
-<wire x1="61.468" y1="55.118" x2="61.976" y2="54.61" width="0.2032" layer="1"/>
-<wire x1="61.976" y1="54.61" x2="62.992" y2="54.61" width="0.2032" layer="1"/>
 <wire x1="62.992" y1="54.61" x2="63.246" y2="54.356" width="0.2032" layer="1"/>
 <wire x1="63.246" y1="54.356" x2="63.246" y2="51.816" width="0.2032" layer="1"/>
 <wire x1="63.246" y1="51.816" x2="62.992" y2="51.562" width="0.2032" layer="1"/>
@@ -1303,6 +1301,10 @@ design rules under a new name.</description>
 <wire x1="60.706" y1="51.562" x2="60.198" y2="51.054" width="0.2032" layer="1"/>
 <wire x1="60.198" y1="51.054" x2="59.4825" y2="51.054" width="0.2032" layer="1"/>
 <wire x1="59.4825" y1="51.054" x2="58.941790625" y2="50.513290625" width="0.2032" layer="1"/>
+<wire x1="62.992" y1="54.61" x2="62.23" y2="54.61" width="0.2032" layer="1"/>
+<wire x1="62.23" y1="54.61" x2="61.722" y2="55.118" width="0.2032" layer="1"/>
+<wire x1="61.722" y1="55.118" x2="61.722" y2="55.656" width="0.2032" layer="1"/>
+<wire x1="61.722" y1="55.656" x2="61.534" y2="55.844" width="0.2032" layer="1"/>
 </signal>
 <signal name="A3">
 <contactref element="ATMEGA32U4" pad="39"/>
@@ -1574,11 +1576,10 @@ design rules under a new name.</description>
 <wire x1="61.722" y1="46.228" x2="62.484" y2="46.99" width="0.2032" layer="1"/>
 <wire x1="62.484" y1="46.99" x2="62.484" y2="47.244" width="0.2032" layer="1"/>
 <via x="62.484" y="47.244" extent="1-16" drill="0.254"/>
-<wire x1="70.358" y1="52.07" x2="68.58" y2="50.292" width="0.2032" layer="16"/>
-<wire x1="68.58" y1="50.292" x2="65.532" y2="50.292" width="0.2032" layer="16"/>
+<wire x1="69.342" y1="50.292" x2="65.532" y2="50.292" width="0.2032" layer="16"/>
 <wire x1="65.532" y1="50.292" x2="62.484" y2="47.244" width="0.2032" layer="16"/>
-<wire x1="70.358" y1="52.07" x2="71.12" y2="52.07" width="0.2032" layer="16"/>
 <wire x1="71.12" y1="52.07" x2="71.374" y2="52.324" width="0.2032" layer="16"/>
+<wire x1="69.342" y1="50.292" x2="71.374" y2="52.324" width="0.2032" layer="16"/>
 </signal>
 <signal name="TXLED">
 <contactref element="ATMEGA32U4" pad="22"/>
@@ -1877,56 +1878,6 @@ design rules under a new name.</description>
 <wire x1="53.086" y1="57.658" x2="52.212" y2="57.658" width="0.2032" layer="1"/>
 </signal>
 </signals>
-<errors>
-<approved hash="1,20,1d62031c037f1d01"/>
-<approved hash="1,20,67f30d8d0de1679f"/>
-<approved hash="1,20,9f418d3f8d639f1d"/>
-<approved hash="1,20,647f0e010e25645b"/>
-<approved hash="1,20,127f2001201d1263"/>
-<approved hash="1,20,9c42023c02e79c99"/>
-<approved hash="1,20,5c7e120014e55a9b"/>
-<approved hash="1,20,547e760069654b1b"/>
-<approved hash="1,20,923e20402725955b"/>
-<approved hash="1,20,9bc811b611699b17"/>
-<approved hash="1,20,9d60171e176b9d15"/>
-<approved hash="1,20,5d5d8f238f635d1d"/>
-<approved hash="1,20,9c0c3272332d9d53"/>
-<approved hash="1,20,62f0008e00fa6284"/>
-<approved hash="1,20,545e762077ed5593"/>
-<approved hash="1,20,7c7f820181017f7f"/>
-<approved hash="1,20,9e0cb472b5229f5c"/>
-<approved hash="1,20,5df1c38fc33b5d45"/>
-<approved hash="1,20,9c3e3240352b9b55"/>
-<approved hash="1,20,65ca0fb40f63651d"/>
-<approved hash="1,20,548bfef5ff395547"/>
-<approved hash="1,20,9c8812f613389d46"/>
-<approved hash="1,20,5c43c23dc2e15c9f"/>
-<approved hash="1,20,5e638c1d8d215f5f"/>
-<approved hash="1,20,856c8f128f22855c"/>
-<approved hash="1,20,65bd0fc30f23655d"/>
-<approved hash="1,20,515fe321e36d5113"/>
-<approved hash="1,20,54621e1c1ee3549d"/>
-<approved hash="1,20,67810dff0d2b6755"/>
-<approved hash="1,20,020c80728121035f"/>
-<approved hash="1,20,547e1e001f65551b"/>
-<approved hash="1,20,54f01e8e1f3b5545"/>
-<approved hash="1,20,4472760c77e1459f"/>
-<approved hash="1,20,1e7d14031223185d"/>
-<approved hash="1,20,7f8381fd81297f57"/>
-<approved hash="1,20,5a5c002200e25a9c"/>
-<approved hash="1,20,5e7c0c021360411e"/>
-<approved hash="1,20,5d6c131213235d5d"/>
-<approved hash="1,20,5a0c0072011c5b62"/>
-<approved hash="1,20,5f6ff511f52d5f53"/>
-<approved hash="1,20,547d160309634b1d"/>
-<approved hash="1,20,841c8e628d22875c"/>
-<approved hash="1,20,67800dfe0d296757"/>
-<approved hash="1,20,a41c16621522a75c"/>
-<approved hash="1,20,598703f9032d5953"/>
-<approved hash="1,20,836a31143120835e"/>
-<approved hash="1,20,a46c16121722a55c"/>
-<approved hash="1,20,1e5f342135ed1f93"/>
-</errors>
 </board>
 </drawing>
 </eagle>
